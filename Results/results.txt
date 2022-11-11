@@ -1,0 +1,582 @@
+
+ number of surveys - before 
+[1] 50
+
+ number of surveys - before, complete 
+[1] 26
+
+ number of surveys - after 
+[1] 23
+
+ number of surveys - after, complete 
+[1] 17
+
+ number of complete confidence responses - before AM, AMR, AMS, total 
+[1] 50
+[1] 33
+[1] 28
+[1] 28
+
+ number of complete confidence responses - after AM, AMR, AMS, total 
+[1] 23
+[1] 20
+[1] 17
+[1] 17
+
+ average confidence scores _ before 
+   AM_C   AMR_C   AMS_C Total_C 
+   1.30    1.68    1.04    1.34 
+
+ average confidence scores _ after 
+   AM_C   AMR_C   AMS_C Total_C 
+   1.22    1.62    1.12    1.26 
+
+ median confidence scores _ before 
+   AM_C   AMR_C   AMS_C Total_C 
+    1.0     1.5     1.0     1.0 
+
+ median confidence scores _ after 
+   AM_C   AMR_C   AMS_C Total_C 
+   1.00    1.75    1.00    1.00 
+
+ mode confidence scores _ before 
+$AM_C
+x
+ 0  1  2  3 
+ 7 22 20  1 
+
+$AMR_C
+x
+  0 0.5   1 1.5   2   3 
+  1   3   7   6  10   6 
+
+$AMS_C
+x
+  0 0.5   1 1.5   2 
+  4   2  15   2   5 
+
+$Total_C
+x
+ 0  1  2  3 
+ 5 24 20  1 
+
+
+ mode confidence scores _ after 
+$AM_C
+x
+ 0  1  2 
+ 3 12  8 
+
+$AMR_C
+x
+0.5   1 1.5   2 2.5   3 
+  1   7   2   7   2   1 
+
+$AMS_C
+x
+  0 0.5   1 1.5   2   3 
+  3   1   7   3   2   1 
+
+$Total_C
+x
+ 0  1  2  3 
+ 3 12  7  1 
+
+
+ Comparing all students confidence scores (medians) before and after 
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$Total_C and after$Total_C
+W = 616, p-value = 0.5972
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$AM_C and after$AM_C
+W = 611.5, p-value = 0.6409
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$AMR_C and after$AMR_C
+W = 339, p-value = 0.8724
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$AMS_C and after$AMS_C
+W = 225.5, p-value = 0.7639
+alternative hypothesis: true location shift is not equal to 0
+
+
+ percent of students somewhat or very confident in each question  
+                                                                                                                                      before
+- The difference between antibiotics, antimicrobials, antifungals, antivirals, and parasiticides                                        0.88
+- Antimicrobial classes                                                                                                                 0.48
+- Antimicrobial agent mechanisms of action                                                                                              0.34
+- Antimicrobial agent pharmacokinetics, such as tissue distribution, excretion, metabolism, and potential side effects                  0.22
+- Antimicrobial agent pharmacodynamics, such as time vs concentration dependence and bactericidal vs bacteriostatic effects             0.22
+- Spectrum of activity of antimicrobial agents against gram positive, gram negative, and anaerobic bacteria                             0.38
+- Relative importance of antimicrobial agents used in veterinary medicine for preventing and treating infections in humans              0.72
+- Mechanisms of antimicrobial resistance                                                                                                0.48
+- Intrinsic and acquired resistance                                                                                                     0.55
+- The spread of resistance genes between bacteria                                                                                       0.61
+- The spread of resistant bacteria between individuals, populations, and species                                                        0.55
+- The development and spread of multidrug resistance                                                                                    0.61
+- How antimicrobial use results in increased antimicrobial resistance                                                                   0.82
+- The definition of antimicrobial stewardship                                                                                           0.79
+- The federal and state agencies that regulate antimicrobial drugs                                                                      0.18
+- The use of antimicrobials in an extra-label manner                                                                                    0.29
+- Regulations on the use of antimicrobial drugs in food animals                                                                         0.21
+- Empiric selection of an appropriate antimicrobial drug, dosage, and duration of therapy to treat uncomplicated bacterial infections   0.32
+- Empiric selection of an appropriate antimicrobial drug, dosage, and duration of therapy for patients without co-morbidities           0.18
+- Empiric selection of an appropriate antimicrobial drug, dosage, and duration of therapy to treat complicated bacterial infections     0.07
+- Empiric selection of an appropriate antimicrobial drug, dosage, and duration of therapy for patients with co-morbidities              0.07
+- The selection of appropriate tests to guide the selection of an antimicrobial drug, dosage, and duration of therapy                   0.29
+- The interpretation of culture and susceptibility results                                                                              0.57
+                                                                                                                                      after
+- The difference between antibiotics, antimicrobials, antifungals, antivirals, and parasiticides                                       0.83
+- Antimicrobial classes                                                                                                                0.35
+- Antimicrobial agent mechanisms of action                                                                                             0.35
+- Antimicrobial agent pharmacokinetics, such as tissue distribution, excretion, metabolism, and potential side effects                 0.26
+- Antimicrobial agent pharmacodynamics, such as time vs concentration dependence and bactericidal vs bacteriostatic effects            0.26
+- Spectrum of activity of antimicrobial agents against gram positive, gram negative, and anaerobic bacteria                            0.39
+- Relative importance of antimicrobial agents used in veterinary medicine for preventing and treating infections in humans             0.70
+- Mechanisms of antimicrobial resistance                                                                                               0.50
+- Intrinsic and acquired resistance                                                                                                    0.35
+- The spread of resistance genes between bacteria                                                                                      0.55
+- The spread of resistant bacteria between individuals, populations, and species                                                       0.55
+- The development and spread of multidrug resistance                                                                                   0.60
+- How antimicrobial use results in increased antimicrobial resistance                                                                  0.65
+- The definition of antimicrobial stewardship                                                                                          0.65
+- The federal and state agencies that regulate antimicrobial drugs                                                                     0.12
+- The use of antimicrobials in an extra-label manner                                                                                   0.12
+- Regulations on the use of antimicrobial drugs in food animals                                                                        0.24
+- Empiric selection of an appropriate antimicrobial drug, dosage, and duration of therapy to treat uncomplicated bacterial infections  0.59
+- Empiric selection of an appropriate antimicrobial drug, dosage, and duration of therapy for patients without co-morbidities          0.59
+- Empiric selection of an appropriate antimicrobial drug, dosage, and duration of therapy to treat complicated bacterial infections    0.18
+- Empiric selection of an appropriate antimicrobial drug, dosage, and duration of therapy for patients with co-morbidities             0.18
+- The selection of appropriate tests to guide the selection of an antimicrobial drug, dosage, and duration of therapy                  0.47
+- The interpretation of culture and susceptibility results                                                                             0.53
+
+ summary of complete scores - before; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.22    0.48    0.55    0.54    0.65    0.70 
+[1] 26
+
+ summary of complete scores - after; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.20    0.50    0.55    0.53    0.63    0.68 
+[1] 17
+
+ summary of all scores - before; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   0.06    0.47    0.54    0.57    0.67    1.00       1 
+[1] 50
+
+ summary of all scores - after; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.15    0.44    0.55    0.52    0.62    1.00 
+[1] 23
+
+ summary of AM scores, complete - before; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.07    0.28    0.44    0.45    0.59    0.78 
+[1] 35
+
+ summary of AM scores, complete - after; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.11    0.33    0.44    0.42    0.52    0.63 
+[1] 20
+
+ summary of AMR scores, complete - before; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.38    0.77    0.77    0.78    0.85    0.92 
+[1] 28
+
+ summary of AMR scores, complete - after; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.31    0.77    0.81    0.76    0.90    0.92 
+[1] 18
+
+ summary of AMS scores, complete - before; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.18    0.45    0.59    0.57    0.70    0.82 
+[1] 26
+
+ summary of AMS scores, complete - after; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.18    0.36    0.64    0.55    0.73    0.82 
+[1] 17
+
+ summary of Clinical scores, complete - before; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    0.33    0.56    0.48    0.64    0.89 
+[1] 26
+
+ summary of Clinical scores, complete - after; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.11    0.44    0.56    0.54    0.67    0.78 
+[1] 17
+
+ summary of AM scores, all - before; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   0.07    0.30    0.50    0.51    0.63    1.00       1 
+[1] 50
+
+ summary of AM scores, all - after; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.11    0.33    0.44    0.43    0.52    1.00 
+[1] 23
+
+ summary of AMR scores, all - before; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   0.00    0.69    0.77    0.68    0.85    0.92      17 
+[1] 50
+
+ summary of AMR scores, all - after; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   0.00    0.60    0.77    0.69    0.87    0.92       3 
+[1] 23
+
+ summary of AMS scores, all - before; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   0.18    0.45    0.59    0.57    0.70    0.82      24 
+[1] 50
+
+ summary of AMS scores, all - after; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   0.18    0.36    0.64    0.55    0.73    0.82       6 
+[1] 23
+
+ summary of Clinical scores, all - before; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   0.00    0.33    0.56    0.48    0.64    0.89      24 
+[1] 50
+
+ summary of Clinical scores, all - after; N is last 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+   0.11    0.44    0.56    0.54    0.67    0.78       6 
+[1] 23
+
+ compare total knowledge before and after, and by section 
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$perc and after$perc
+W = 616, p-value = 0.5295
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$AM_perc and after$AM_perc
+W = 657, p-value = 0.2606
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$AMR_perc and after$AMR_perc
+W = 295, p-value = 0.5177
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$AMS_perc and after$AMS_perc
+W = 227.5, p-value = 0.8801
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$Clinical_perc and after$Clinical_perc
+W = 179.5, p-value = 0.2974
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before_complete$perc and after_complete$perc
+W = 230, p-value = 0.8323
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$AM_perc[AM_complete_row_index_before] and after$AM_perc[AM_complete_row_index_after]
+W = 372.5, p-value = 0.6997
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$AMR_perc[AMR_complete_row_index_before] and after$AMR_perc[AMR_complete_row_index_after]
+W = 231, p-value = 0.6336
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$AMS_perc[AMS_complete_row_index_before] and after$AMS_perc[AMS_complete_row_index_after]
+W = 227.5, p-value = 0.8801
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  before$Clinical_perc[Clinical_complete_row_index_before] and after$Clinical_perc[Clinical_complete_row_index_after]
+W = 179.5, p-value = 0.2974
+alternative hypothesis: true location shift is not equal to 0
+
+
+ before - % aware of at least one guideline 
+[1] 0.93
+
+ before - average # guidelines aware of 
+[1] 2.7
+
+ before - average # guidelines read 
+[1] 1.2
+
+ after - % aware of at least one guideline 
+[1] 0.88
+
+ after - average # guidelines aware of 
+[1] 2.6
+
+ after - average # guidelines read 
+[1] 1.4
+
+ guideline table with percentages (out of n students aware of at least one guideline) 
+                                                                                                   guidelines
+1                             â\200‹â\200‹â\200‹â\200‹â\200‹â\200‹AVMA Antimicrobial Stewardship Definition and Core Principles
+2                                                                  AAAP Antimicrobial Stewardship for Poultry
+3                                              AABP-AVC Judicious Therapeutic Use of Antimicrobials in Cattle
+4                                                                   AABP Antimicrobial Stewardship Guidelines
+5                                  AAFP/AAHA Basic Guidelines for Judicious Therapeutic Use of Antimicrobials
+6                     AASV Basic Guidelines of Judicious Therapeutic Use of Antimicrobials in Pork Production
+7          ACVIM Consensus Statement on Therapeutic Antimicrobial Use in Animals and Antimicrobial Resistance
+8                                                            AVMA Judicious Therapeutic Use of Antimicrobials
+9             ISCAID Antimicrobial use guidelines for treatment of respiratory tract disease in dogs and cats
+10 ISCAID Guidelines for the diagnosis and antimicrobial therapy of canine superficial bacterial folliculitis
+11  ISCAID Guidelines for the diagnosis and management of bacterial urinary tract infections in dogs and cats
+12                                                                                                   Not sure
+13                                                                                              None of these
+   before.aware.Freq after.aware.Freq before.read.Freq after.read.Freq before.aware.perc
+1                 21                8                9               1              0.81
+2                  1                1               NA              NA              0.04
+3                  5                1                3              NA              0.19
+4                  9                2                3              NA              0.35
+5                  1               NA               NA              NA              0.04
+6                  2               NA               NA              NA              0.08
+7                 10                4                4               3              0.38
+8                 10                8                3               1              0.38
+9                  1                4               NA               3              0.04
+10                 4                5                3               4              0.15
+11                 6                6                4               5              0.23
+12                 1                3                3              NA              0.04
+13                NA               NA                5               5                NA
+   after.aware.perc before.read.perc after.read.perc
+1              0.53             0.35            0.07
+2              0.07               NA              NA
+3              0.07             0.12              NA
+4              0.13             0.12              NA
+5                NA               NA              NA
+6                NA               NA              NA
+7              0.27             0.15            0.20
+8              0.53             0.12            0.07
+9              0.27               NA            0.20
+10             0.33             0.12            0.27
+11             0.40             0.15            0.33
+12             0.20             0.12              NA
+13               NA             0.19            0.33
+
+ number of students completing both surveys 
+[1] 8
+
+ Comparing paired students confidence scores (medians) before and after 
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  paired$Total_C_before and paired$Total_C_after
+V = 5, p-value = 1
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  paired$AM_C_before and paired$AM_C_after
+V = 1.5, p-value = 1
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  paired$AMR_C_before and paired$AMR_C_after
+V = 12.5, p-value = 0.7498
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  paired$AMS_C_before and paired$AMS_C_after
+V = 2.5, p-value = 1
+alternative hypothesis: true location shift is not equal to 0
+
+
+ compare paired total knowledge before and after, and by section 
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  paired$perc_before and paired$perc_after
+V = 11, p-value = 0.3621
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  paired$AM_perc_before and paired$AM_perc_after
+W = 30.5, p-value = 0.9159
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  paired$AMR_perc_before and paired$AMR_perc_after
+W = 22.5, p-value = 0.3329
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  paired$AMS_perc_before and paired$AMS_perc_after
+W = 28, p-value = 0.7103
+alternative hypothesis: true location shift is not equal to 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  paired$Clinical_perc_before and paired$Clinical_perc_after
+W = 35, p-value = 0.7889
+alternative hypothesis: true location shift is not equal to 0
+
+
+ number of students attributing more to SA vets over FA vets - before 
+[1] 0.85
+
+ number of students attributing more to SA vets over FA vets - after 
+[1] 0.71
+
+ number of students attributing more to vets over human healthcare - before 
+[1] 0.33
+
+ number of students attributing more to vets over human healthcare - after 
+[1] 0.41
+
+ correlation between confidence and knowledge 
+
+	Kendall's rank correlation tau
+
+data:  conf.know.after$Total_C and conf.know.after$perc
+z = 2.0786, p-value = 0.03765
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.3552888 
+
+
+	Kendall's rank correlation tau
+
+data:  conf.know.after$AM_C and conf.know.after$AM_perc
+z = 0.85914, p-value = 0.3903
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.1505037 
+
+
+	Kendall's rank correlation tau
+
+data:  conf.know.after$AMR_C and conf.know.after$AMR_perc
+z = 1.8817, p-value = 0.05988
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.3500447 
+
+
+	Kendall's rank correlation tau
+
+data:  conf.know.after$AMS_C and conf.know.after$AMS_perc
+z = 1.0622, p-value = 0.2882
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.2153528 
+
+
+	Kendall's rank correlation tau
+
+data:  conf.know.after$AMS_C and conf.know.after$Clinical_perc
+z = 0.53533, p-value = 0.5924
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.1091089 
+
+
+	Kendall's rank correlation tau
+
+data:  conf.know.before$Total_C and conf.know.before$perc
+z = 1.1652, p-value = 0.2439
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.1348135 
+
+
+	Kendall's rank correlation tau
+
+data:  conf.know.before$AM_C and conf.know.before$AM_perc
+z = 3.331, p-value = 0.0008653
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.3834269 
+
+
+	Kendall's rank correlation tau
+
+data:  conf.know.before$AMR_C and conf.know.before$AMR_perc
+z = 0.72133, p-value = 0.4707
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+      tau 
+0.1022074 
+
+
+	Kendall's rank correlation tau
+
+data:  conf.know.before$AMS_C and conf.know.before$AMS_perc
+z = 1.9094, p-value = 0.05621
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+    tau 
+0.31311 
+
+
+	Kendall's rank correlation tau
+
+data:  conf.know.before$AMS_C and conf.know.before$Clinical_perc
+z = -0.70858, p-value = 0.4786
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+       tau 
+-0.1174275 
+
